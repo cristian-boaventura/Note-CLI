@@ -2,6 +2,7 @@
   "name": "introduction-to-node",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "note": "./index.js"
   },
@@ -11,5 +12,8 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
